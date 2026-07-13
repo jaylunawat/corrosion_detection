@@ -1,0 +1,32 @@
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# Data
+data/
+*.png
+*.jpg
+*.jpeg
+!assets/*.png
+!assets/*.jpg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
